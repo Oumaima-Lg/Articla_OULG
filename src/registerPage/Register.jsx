@@ -1,14 +1,14 @@
 import React from 'react'
-import LoginForm from './LoginForm'
+import RegisterForm from '../registerPage/RegisterForm'
 
-const Login = () => {
+const Register = () => {
   return (
     <div className='text-white flex items-center justify-center pt-20 '>
       <div className=''>
-          <LoginForm />
+          <RegisterForm />
       </div>
     </div>
   )
 }
 
-export default Login
+export default Register
